@@ -216,7 +216,7 @@ app()->booted(function (): void {
     app('events')->listen(RouteMatched::class, function (): void {
         EmailHandler::addTemplateSettings(Theme::getThemeName(), [
             'name' => __('Theme emails'),
-            'description' => __('Config email templates for theme'),
+            'description' => __('Config email templates for themev g'),
             'templates' => [
                 'contact-seller' => [
                     'title' => __('Contact Seller'),

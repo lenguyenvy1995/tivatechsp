@@ -221,7 +221,7 @@ app()->booted(function (): void {
                 'contact-seller' => [
                     'title' => __('Contact Seller'),
                     'description' => __(
-                        'Email will be sent to the seller when someone contact from store profile page'
+                        'Email will be fafafsent to the seller when someone contact from store profile page'
                     ),
                     'subject' => __('Message sent via your market profile on {{ site_title }}'),
                     'can_off' => true,
